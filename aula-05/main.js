@@ -1,3 +1,8 @@
+/* let titleReference = document.querySelector("#title") */
+
+//titleReference.classList.add('title')
+
+
 let mainMenuReference = document.querySelector('#mainMenu')
 
 function manipularMenu() {
@@ -6,14 +11,9 @@ function manipularMenu() {
 
 }
 
-// function openMenu() {
 
-//     mainMenuReference.classList.add('main-menu-opened')
+let txto = document.querySelector('#teste')
 
-// }
-
-// function closeMenu() {
-
-//     mainMenuReference.classList.remove('main-menu-opened')
-
-// }
+function moveTeste(){
+    txto.classList.toggle('move')
+}

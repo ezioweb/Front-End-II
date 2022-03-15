@@ -40,11 +40,39 @@ for(let number of numbers) {
 for(let userDetail in user){
  //console.log(userDetail)
  console.log(userDetail + ": " + user[userDetail])
-}
- */
+} */
+
+/* 
+sem nada: nome do dados 
+com []: dados 
+*/
+
 // For of = array
 // For in = objeto
 
-let userChoide = prompt('1- Pedra, 2- Papel, 3- Tesoura')
+/* const lista = {
+  frutas: 'banana, maça e laranja',
+  bebidas: 'gim e vodka',
+  drinks: 'gin tônia e capipiroska'
+}
 
+for(let Itens in lista){
+  console.log(Itens + ": " + lista[Itens])
+}
+ */
+//let userChoide = prompt('1- Pedra, 2- Papel, 3- Tesoura')
 
+/* let carro = {
+  nome: 'gol',
+  ano: '2020'
+}
+
+for(let propriedade in carro){
+  console.log(propriedade + ": " + carro[propriedade])
+} */
+
+let  frutas=  ['banana', 'maça', 'laranja', 'abacaxi']
+
+for(let fruta of frutas){
+  console.log(fruta)
+}

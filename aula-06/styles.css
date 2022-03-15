@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
+
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  transition: .4s ease-in-out;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
   background-color: rgb(219, 219, 219);
+  transition: 1s;
 }
 
 h1 {
@@ -15,15 +20,31 @@ h1 {
   background-color: white;
   border-bottom: 1px solid lightgrey;
   color: grey;
+  margin-bottom: 22px;
 }
 
 button {
-padding: 10px;
-background-color: black;
+   background-color: black;
   color: antiquewhite;
-  position: relative;
-  left: 20px;
-  top: 10px;
+}
+
+.main-button {
+
+  font-size: 16px;
+  border: 0;
+  padding: 12px 32px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: absolute;
+  top: 16px;
+  right: 24px;
+
+}
+
+.main-button:hover {
+
+  transform: scale(1.02);
+
 }
 
 .container {
@@ -45,33 +66,49 @@ background-color: black;
 }
 
 .item img {
+
   width: 100%;
+
 }
 
 .item h2 {
+
   font-size: 1em;
   margin-bottom: .2em;
+
 }
-
-
 
 .dark {
-  background-color: rgb(39, 39, 39); 
-  color: rgb(230, 230, 230);
+
+  background-color: rgb(39, 39, 39);
+
 }
 
-.dark h1{ 
+.dark h1 {
+
   background-color: rgb(19, 19, 19);
   color: rgb(170, 170, 170);
   border-color: black;
+
 }
 
-.dark div{
+.dark .main-button {
+
+  background-color: #f3f3f3;
+  color: rgb(14, 14, 14);
+
+}
+
+
+.dark .item {
+
   background-color: rgb(19, 19, 19);
   border-color: black;
+
 }
 
-.dark button{
-  background-color: rgb(255, 255, 255);
-  color: rgb(10, 6, 0);
+.dark .item h2, .dark .item p {
+
+  color: rgb(230, 230, 230);
+
 }

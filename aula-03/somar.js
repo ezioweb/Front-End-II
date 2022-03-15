@@ -1,6 +1,6 @@
-export default function somar (primeiroNumero, segundoNumero) {
+export default function somar (num1, num2) {
 
- return primeiroNumero + segundoNumero
+ return num1 + num2
 
 }
 

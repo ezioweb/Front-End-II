@@ -42,44 +42,4 @@ switch (userChoide) {
     break;
 }
 
-// if (userChoide === 1) {
-//   if (botChoice === 1) {
-//     alert("empatou");
-//   }
 
-//   if (botChoice === 2) {
-//     alert("você perdeu");
-//   }
-
-//   if (botChoice === 3) {
-//     alert("você ganhou");
-//   }
-// }
-
-// if (userChoide === 2) {
-//   if (botChoice === 1) {
-//     alert("você perdeu");
-//   }
-
-//   if (botChoice === 2) {
-//     alert("empatou");
-//   }
-
-//   if (botChoice === 3) {
-//     alert("você ganhou");
-//   }
-// }
-
-// if (userChoide === 3) {
-//   if (botChoice === 1) {
-//     alert("você perdeu");
-//   }
-
-//   if (botChoice === 2) {
-//     alert("você ganhou");
-//   }
-
-//   if (botChoice === 3) {
-//     alert("empatou");
-//   }
-// }
