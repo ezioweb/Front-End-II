@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h1>Cadastro</h1>
+        <div>
+            <label for="inputNome">Nome</label>
+            <input type="text" id="inputNome">
+        </div>
+        
+       <!--  radio selector, os nomes do inputs tem que ser o mesmo -->
+        <div>
+            <input type="radio" name = "tipoPessoa" id="pessoaFisica" value="fisica" checked>
+            <label for="pessoaFisica">Pessoa Física</label>
+        </div>
+        
+        <div>
+            <input type="radio" name = "tipoPessoa" id="pessoaJuridica" value="juridica">
+            <label for="pessoaJuridica">Pessoa Jurídica</label>
+        
+        </div>
+        <div>
+            <label for="selectCidade">Cidade</label>
+            <select name="" id="selectCidade">
+                <option value="São Paulo">São Paulo</option>
+                <option value="Santos">Santos</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" id="inputTermos" value="aceito">
+            <label for="inputTermos">Concordo com os termos e condições</label>
+        </div>
+        <button type="Concluir" id="botaoConcluirCadastro">Enviar</button>
+    </form>
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
